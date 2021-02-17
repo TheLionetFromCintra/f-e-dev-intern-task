@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task1</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <form id="form" class="form">
+            <div class="form__title">
+                <h2 class="form__title-sign">Sign Up</h2>
+            </div>
+            
+            <div class="form__main">
+
+                <div class="form__main-inputs">
+
+                    <div class="form__box">
+                        <div class="form__box-input">
+                            <input id="firstName" class="form__main-input" type="text" placeholder=" ">
+                            <label class="form__main-label">First name</label>
+                            <small class="error-message">Error message</small>
+                        </div>
+                        
+                        <div class="form__box-input">
+                            <input id="lastName" class="form__main-input" type="text" placeholder=" ">
+                            <label class="form__main-label">Last name</label>
+                            <small class="error-message">Error message</small>
+                        </div>
+                    </div>
+
+                    <div class="form__box">
+
+                        <div class="form__box-input">
+                            <label class="form__inputs-title">Gender</label>
+
+                            <div class="form__box-radio">
+                                <input id="male" class="form__main-radio" type="radio"  name="gender" value="Male" checked>
+                                <label class="form__radio-label" for="male">Male</label>
+                            </div>
+                            
+                            <div class="form__box-radio">
+                                <input id="female" class="form__main-radio" type="radio"  name="gender" value="Female">
+                                <label class="form__radio-label" for="female">Female</label>
+                            </div>
+
+                            <small class="error-message">Error message</small>
+
+                        </div>
+                        
+                        <div class="form__box-input">
+                            <label class="form__age-title">Age</label>
+
+                            <input id="age" class="form__age-input" type="text">
+                            <div class="arr-up"></div>
+                            <div class="arr-down"></div>
+
+                            <small class="error-message">Error message</small>
+                            
+                        </div>
+                    </div>
+
+                    <div class="form__box-input">
+                        <input id="email" class="form__main-input" type="text" placeholder=" ">
+                        <label class="form__main-label">Email</label>
+                        <small class="error-message">Error message</small>
+                    </div>
+
+
+                    <div class="form__box">
+
+                        <div class="form__box-input">
+                            <input id="password" class="form__main-input" type="text" placeholder=" ">
+                            <label class="form__main-label">Password</label>
+                            <small class="error-message">Error message</small>
+                        </div>
+                            
+                        <div class="form__box-input">
+                            <input id="password2" class="form__main-input" type="text" placeholder=" ">
+                            <label class="form__main-label">Confirm Password</label>
+                            <small class="error-message">Error message</small>
+                        </div>
+                        
+    
+                    </div>
+
+                </div>
+
+                <div class="form__main-button">
+                    <button class="form__main-button-sign" type="submit" >Sign Up</button>
+                </div>
+                
+            
+            </div>
+
+        </form>
+
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <h3 class="modal__title">Dear <span class="modal__name"></span>, Thank you for registering</h3>
+                <span class="modal__acc">Your account was created successfully.</span>
+                <span class="modal__text">Information about you:</span>
+                <div class="modal__info">
+                    <div class="modal__info-field">Your first name: <span class="modal__info-firstname"></span></div>
+                    <div class="modal__info-field">Your last name: <span class="modal__info-lastname"></span></div>
+                    <div class="modal__info-field">Your gender: <span  class="modal__info-gender"></span></div>
+                    <div class="modal__info-field">Your age: <span class="modal__info-age"></span></div>
+                    <div class="modal__info-field">Your email: <span class="modal__info-email"></span></div>
+                    <div class="modal__info-field">Your password: <span class="modal__info-password"></span></div>
+                </div>
+
+                <div class="modal__btn-box">
+                    <button class="modal__btn">Sign up again</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
