@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "firstName": "Robert",
+      "lastName": "Smith",
+      "gender": "Male",
+      "age": "34",
+      "email": "smithjs@mail.ru",
+      "password": "1qasw2",
+      "id": 1
+    },
+    {
+      "firstName": "Martha",
+      "lastName": "Wayne",
+      "gender": "Female",
+      "age": "45",
+      "email": "waynejs@bk.ru",
+      "password": "zaqxsw",
+      "id": 2
+    },
+    {
+      "firstName": "Fox",
+      "lastName": "Mulder",
+      "gender": "Male",
+      "age": "36",
+      "email": "foxmulder@fbi.com",
+      "password": "iwanttobelieve",
+      "id": 3
+    },
+    {
+      "firstName": "Dana",
+      "lastName": "Scully",
+      "gender": "Female",
+      "age": "35",
+      "email": "doctorscully@dana.com",
+      "password": "1234rfv",
+      "id": 4
+    },
+    {
+      "firstName": "John",
+      "lastName": "Wick",
+      "gender": "Male",
+      "age": "43",
+      "email": "wick@n1.com",
+      "password": "asdcvb",
+      "id": 5
+    }
+  ]
+}
