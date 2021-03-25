@@ -190,6 +190,7 @@ password.addEventListener('input', function() {
         arrPass1.pop();
     }
     copyPass1 = arrPass1.join('');
+
 });
 
 password2.addEventListener('input', function() {
@@ -233,3 +234,6 @@ modalBtn.addEventListener('click', function() {
     clearFields(fieldsArr);
     clearGender(gender);
 });
+
+
+
